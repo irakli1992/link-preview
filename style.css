@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.head-div {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  background-color: #633cff;
+  border-radius: 0 0 32px 32px;
+  padding: 24px;
+}
+.div-1 {
+  background-color: white;
+  border-radius: 12px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+a {
+  padding: 11px 27px;
+  color: #633cff;
+  border-radius: 8px;
+  border: 1px solid #633cff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.share-link {
+  background: #633cff;
+  color: white;
+}
+img {
+  width: 349px;
+  height: 569px;
+  align-self: center;
+}
